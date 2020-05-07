@@ -1,0 +1,122 @@
+.main_header{
+    display: flex;
+    align-items: center;
+    color:rgb(84, 6, 133);
+    float: left;
+    font-family:'MD이솝체';
+    font-size: 27pt;
+}
+
+.navi {
+    list-style-type:none; 
+    margin:0; 
+    padding:0;
+    margin-top: 10px;
+}
+
+.navi  li a {
+   display: block; 
+   font-weight:bold; 
+   color:rgb(84, 6, 133); 
+   padding: 8px 16px; 
+   text-decoration: none; 
+}
+
+.navi li a:hover {   
+    background:#f9ccff; 
+    color:rgb(161, 111, 184);
+}
+
+.navi li {
+    width:19%; 
+    text-align: center;
+    display: inline-block; 
+    background:rgb(209, 159, 231)}
+
+.main0_img{
+    width:5%;
+    height:50px;
+   
+}
+
+.main_img{
+    width:76%;
+    height:400px;
+    float: left;
+    opacity: 0.7;
+    position:relative ;
+    z-index: -1;
+}
+
+
+
+.main2_img{
+    width:46%;
+    height:300px;
+    display: inline-block;
+    float:left;
+    opacity: 0.8;
+    position:relative ;
+    z-index: -1;
+
+}
+
+.main3_img{
+    width:30%;
+    height:300px;
+    float:left;
+    opacity: 0.8;
+    position:relative ;
+    z-index: -1;
+
+}
+
+
+
+.notice{
+    display: inline-block;
+    height:300px;
+    width:21%;
+    border:1px solid rgba(118, 33, 158, 0.856);
+    background: rgba(255, 255, 255, 0.418);
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    top:250px;
+    right:20px;
+    text-align: center;
+}
+.footer{
+    color:#777;
+    font-size:12px;
+}
+
+
+
+body {
+
+    background: rgba(247, 236, 202, 0.719);
+  
+    padding: 2rem;
+
+}
+
+.money{
+    border: none;
+    background: none;
+    background-color:rgba(253, 253, 253, 0.555);
+    border:2px solid rgb(145, 51, 182);
+    border-radius: 10px;
+    padding:5px 10px;
+    color:rgb(160, 61, 199);
+   font-weight: bolder;
+    float:center;
+    text-align: center;
+  
+}
+
+.word{
+  
+    font-family:'HY강M';
+
+}

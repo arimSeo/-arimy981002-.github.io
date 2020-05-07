@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>새 글 쓰기</title>
+        <link rel="shortcut icon" type="image/" href="logoo.jpg"/>
+        <style>
+            body {
+
+                background: rgba(247, 236, 202, 0.719);
+
+                padding: 2rem;
+
+            }
+            input,
+            td,
+            th {
+                font-family: 돋움체;
+                font-size: 10pt;
+                text-align: left;
+            }
+            td.heading {
+                background-color: rgb(231, 205, 252);
+            }
+         
+            
+        </style>
+    </head>
+    <body bgcolor="white">
+        <hr size="5" width="800" color="#C98AFF"/>
+        <div align="center">
+            <h5>
+                <marquee scrollamount="8" width="550">❌게시글과 관련 없는 내용은 즉시 삭제합니다❌</marquee>
+            </h5>
+        </div>
+        <table align="center" width="550">
+            <tr height="1">
+                <td colspan="4" bgcolor="grey"></td>
+            </tr>
+            <tr>
+                <td width="15%" class="heading">작성자</td>
+                <td width="35%">
+                    <input type="text"/>
+                </td>
+                <td width="15%" class="heading">비밀번호</td>
+                <td width="35%">
+                    <input type="password"/>
+                </td>
+            </tr>
+            <tr height="1">
+                <td colspan="4" bgcolor="grey"></td>
+            </tr>
+            <tr>
+                <td class="heading">제목</td>
+                <td><input type="text" size="25"/></td>
+                <td class="heading">유형</td>
+                <td>
+                    <select>
+                        <option>전체</option>
+                        <option>매장문의</option>
+                        <option>배송문의</option>
+                    </select>
+                </td>
+            </tr>
+            <tr height="1">
+                <td colspan="4" bgcolor="grey"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <textarea cols="70" rows="20"></textarea>
+                </td>
+            </tr>
+            <tr height="1">
+                <td colspan="4" bgcolor="grey"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="file"/>
+                </td>
+                <td>
+                    <input type="button" value="등록하기"></td>
+                <td>
+                    <input type="button" value="취소하기" onclick="location.href='QnA.html'"></td>
+            </tr>
+        </table>
+
+    </body>
+</html>
